@@ -1,0 +1,14 @@
+import statistics
+
+
+Results = [87,77,75,66,54,60,55,]
+#Christmas Results from December 2021
+
+Avg = round(statistics.mean(Results))
+print ("The average of your Chistmas results are:",Avg)
+
+Med = statistics.median(Results)
+print ("The med of your Chistmas results are:",Med)
+
+Spr = round(statistics.stdev(Results))
+print ("The data spread of your results are:",Spr)
